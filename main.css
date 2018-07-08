@@ -1,0 +1,18 @@
+h1 {
+    font-size: 45px;
+}
+
+
+html {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    text-align: center;
+}
+
+a {
+    color: #4CB1FD;
+    text-decoration: none;
+}
