@@ -5,7 +5,7 @@
   "http://ericasadun.com/feed/",
   "https://blog.github.com/changelog/all.atom",
   "http://feeds.feedburner.com/cgpgrey/PJyo",
-  "http://webcomicname.tumblr.com/rss",
+  "http://webcomicname.com/rss",
   "http://www.daemonology.net/hn-weekly-ask/index.rss",
   "http://hypercritical.co/feeds/main",
   "http://xkcd.com/rss.xml",
@@ -29,5 +29,5 @@
   "https://www.youtube.com/feeds/videos.xml?channel_id=UCBJycsmduvYEL83R_U4JriQ",
   "https://labs.spotify.com/feed/",
   "http://silverfox.be/silverfox-rss.xml",
-  "https://lwn.net/headlines/rss
+  "https://lwn.net/headlines/rss"
 ]
