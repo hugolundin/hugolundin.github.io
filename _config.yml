@@ -10,12 +10,12 @@ url: https://www.hugolundin.se
 description: Software developer.
 
 links:
-  - title: Github
-    url: https://www.github.com/hugolundin
-  
   - title: Email
     url: mailto:contact@hugolundin.se
 
+  - title: Github
+    url: https://www.github.com/hugolundin
+  
   - title: Spotify
     url: https://open.spotify.com/user/hugolundin?si=fU8_4QprTqC1SJt2L1pakQ
 
