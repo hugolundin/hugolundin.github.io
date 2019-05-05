@@ -7,9 +7,8 @@ layout: page
 # Hello!
 
 My name is Hugo Lundin and I am a software developer from Sweden 🇸🇪
-
 I currently work at <a style="color: #52C5D4;" href="https://www.plejd.com">Plejd</a> developing embedded
-Linux sofware. I have a big interesting in programming.
+Linux software.
 
 
 <p class="message">
