@@ -1,0 +1,83 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family:"Lato", "Avenir-Light", "Helvetica", "Arial", sans-serif;
+	font-weight:300;
+	color:#000000;
+	height:100%;
+	background-color:#ffffff;
+}
+
+h1, h2 {
+	font-size: 26pt;
+	font-weight: normal;
+}
+		
+a {
+	color: #192B85;
+	text-decoration: none;
+	font-family: "Lato", "AvenirNext-Medium", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.page-title {
+    text-decoration: none;
+    color: black;
+    text-transform: none;
+}
+
+#note {
+    margin-top: 5px;
+	margin-bottom: 6px;
+    padding-bottom: 8px;
+}
+
+#note-content {
+    margin-top: 20px;
+	margin-bottom: 6px;
+    padding-bottom: 8px;
+}
+
+#content{
+	position: fixed;
+    top: 20px; 
+    left: 20px;
+}
+
+#personal{
+    margin-top: 5px;
+	margin-bottom: 6px;
+    padding-bottom: 8px;
+}
+
+#personal{
+    margin-top: 5px;
+	margin-bottom: 6px;
+    padding-bottom: 8px;
+}
+
+#contact {
+    margin-top: 5px;
+    margin-bottom: 6px;
+	padding-bottom: 8px;
+}
+
+#projects {
+    margin-top: 5px;
+    margin-bottom: 6px;
+	padding-bottom: 8px;
+}
+
+#notes {
+    margin-top: 5px;
+    margin-bottom: 6px;
+	padding-bottom: 8px;
+}
+

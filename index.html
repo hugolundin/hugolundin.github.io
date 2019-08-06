@@ -1,0 +1,40 @@
+---
+layout: page
+title: Hugo Lundin
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}style/front.css">
+
+<div id="personal">
+    <p>Programmer and computer engineering student.</p>
+</div>
+
+{% include divider.html %}
+
+<div id="contact">
+    <p><i>contact</i></p>
+    {% for contact in site.data.contact %}
+    <p><a href="{{ contact.href }}">{{ contact.text }}</a></p>
+    {% endfor %}
+</div>
+
+{% include divider.html %}
+
+<div id="projects">
+    <p><i>projects</i></p>
+    {% for project in site.data.projects %}
+    <p><a title="{{ project.description }}" href="{{ project.url }}">{{ project.name }}</a></p>
+    {% endfor %}
+</div>
+
+{% include divider.html %}
+
+<div id="notes">
+    <p><i>notes</i></p>
+    {% assign sorted_notes = site.posts | sort %}
+    {% for note in sorted_notes %}
+    <p><a href="{{ note.url }}">{{ note.title | downcase }}</a></p>
+    {% endfor %}
+</div>
+
+

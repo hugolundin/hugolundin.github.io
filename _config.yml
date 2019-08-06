@@ -2,27 +2,13 @@ plugins:
   - redcarpet
   - rouge
 
-permalink: pretty
+title: Hugo Lundin
+permalink: :title
 baseurl: /
 
-title: Hugo Lundin
-url: https://www.hugolundin.se
-description: Software developer
-
-links:
-  - title: Email
-    url: mailto:contact@hugolundin.se
-
-  - title: Github
-    url: https://www.github.com/hugolundin
-  
-  - title: Spotify
-    url: https://open.spotify.com/user/hugolundin?si=fU8_4QprTqC1SJt2L1pakQ
-
-  - title: Resume
-    url: https://www.hugolundin.se/files/resume.pdf
-
-  - title: Instagram
-    url: https://www.instagram.com/hugolundin
-
-  
+gems:
+- jekyll-github-metadata
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji
