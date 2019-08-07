@@ -33,51 +33,11 @@ a:hover {
     text-transform: none;
 }
 
-#note {
-    margin-top: 5px;
-	margin-bottom: 6px;
-    padding-bottom: 8px;
-}
-
-#note-content {
-    margin-top: 20px;
-	margin-bottom: 6px;
-    padding-bottom: 8px;
-}
-
 #content{
 	position: fixed;
     top: 20px; 
     left: 20px;
 }
 
-#personal{
-    margin-top: 5px;
-	margin-bottom: 6px;
-    padding-bottom: 8px;
-}
 
-#personal{
-    margin-top: 5px;
-	margin-bottom: 6px;
-    padding-bottom: 8px;
-}
-
-#contact {
-    margin-top: 5px;
-    margin-bottom: 6px;
-	padding-bottom: 8px;
-}
-
-#projects {
-    margin-top: 5px;
-    margin-bottom: 6px;
-	padding-bottom: 8px;
-}
-
-#notes {
-    margin-top: 5px;
-    margin-bottom: 6px;
-	padding-bottom: 8px;
-}
 

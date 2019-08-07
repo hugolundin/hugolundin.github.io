@@ -3,38 +3,44 @@ layout: page
 title: Hugo Lundin
 ---
 
-<link rel="stylesheet" href="{{ site.baseurl }}style/front.css">
+<link rel="stylesheet" href="{{ site.baseurl }}style/frontpage.css">
 
 <div id="personal">
-    <p>Programmer and computer engineering student.</p>
+    <p>{{ site.description }}</p>
 </div>
+
+{% if site.data.contact.size > 0 %}
+    {% include divider.html %}
+
+    <div id="contact">
+        <p><strong>Contact</strong></p>
+        {% for contact in site.data.contact %}
+        <p><a href="{{ contact.href }}">{{ contact.text }}</a></p>
+        {% endfor %}
+    </div>
+{% endif %}
+
+{% if site.data.projects.size > 0%}
+    {% include divider.html %}
+
+    <div id="projects">
+        <p><strong>Projects</strong></p>
+        {% for project in site.data.projects %}
+        <p><a title="{{ project.description }}" href="{{ project.url }}">{{ project.name }}</a></p>
+        {% endfor %}
+    </div>
+{% endif %}
+
+{% if site.posts.size > 0 %}
+    {% include divider.html %}
+
+    <div id="notes">
+        <p><strong>Notes</strong></p>
+        {% assign sorted_notes = site.posts | sort %}
+        {% for note in sorted_notes %}
+        <p><a href="{{ note.url }}">{{ note.title }}</a></p>
+        {% endfor %}
+    </div>
+{% endif %}
 
 {% include divider.html %}
-
-<div id="contact">
-    <p><i>contact</i></p>
-    {% for contact in site.data.contact %}
-    <p><a href="{{ contact.href }}">{{ contact.text }}</a></p>
-    {% endfor %}
-</div>
-
-{% include divider.html %}
-
-<div id="projects">
-    <p><i>projects</i></p>
-    {% for project in site.data.projects %}
-    <p><a title="{{ project.description }}" href="{{ project.url }}">{{ project.name }}</a></p>
-    {% endfor %}
-</div>
-
-{% include divider.html %}
-
-<div id="notes">
-    <p><i>notes</i></p>
-    {% assign sorted_notes = site.posts | sort %}
-    {% for note in sorted_notes %}
-    <p><a href="{{ note.url }}">{{ note.title | downcase }}</a></p>
-    {% endfor %}
-</div>
-
-

@@ -5,10 +5,13 @@ plugins:
 title: Hugo Lundin
 permalink: :title
 baseurl: /
+name: Hugo Lundin
+description: Programmer and computer engineering student.
+url: https://hugolundin.se
 
-gems:
-- jekyll-github-metadata
-- jekyll-mentions
-- jekyll-redirect-from
-- jekyll-sitemap
-- jemoji
+plugins:
+  - jekyll-github-metadata
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
