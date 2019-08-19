@@ -13,7 +13,6 @@ title: Hugo Lundin
     {% include divider.html %}
 
     <div id="contact">
-        <p><strong>Contact</strong></p>
         {% for contact in site.data.contact %}
         <p><a href="{{ contact.href }}">{{ contact.text }}</a></p>
         {% endfor %}
@@ -24,7 +23,6 @@ title: Hugo Lundin
     {% include divider.html %}
 
     <div id="projects">
-        <p><strong>Projects</strong></p>
         {% for project in site.data.projects %}
         <p><a title="{{ project.description }}" href="{{ project.url }}">{{ project.name }}</a></p>
         {% endfor %}
@@ -35,7 +33,6 @@ title: Hugo Lundin
     {% include divider.html %}
 
     <div id="notes">
-        <p><strong>Notes</strong></p>
         {% assign sorted_notes = site.posts | sort %}
         {% for note in sorted_notes %}
         <p><a href="{{ note.url }}">{{ note.title }}</a></p>
