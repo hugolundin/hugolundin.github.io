@@ -19,6 +19,10 @@ html {
     font-weight: bold;
 }
 
+li {
+    margin: 5px 0px;
+}
+
 .text {
     text-align: left;
     padding: 1em 0 1em 20pt;
