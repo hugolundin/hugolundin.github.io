@@ -2,6 +2,16 @@ html {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+.parent {
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+.content {
+    display: inline-block;
+    text-align: left;
+}
+
 .title {
     color: black;
     text-align: center;
@@ -10,26 +20,12 @@ html {
     padding: 0 0 0.5em 0;
 }
 
-.section {
-    border: solid 1px gray;
-    background: #eeeeee;
-    padding: 0 0.5em 0 0.5em;
-    display: table;
-    font-size: 20pt;
-    font-weight: bold;
+.subtitle {
+    text-align: center;
+    margin-bottom: 1em;
 }
 
-li {
-    margin: 5px 0px;
-}
-
-.text {
-    text-align: left;
-    padding: 1em 0 1em 20pt;
-}
-
-.photo {
-    padding: 1em 0 0 20pt;
-    width: 150px;
-    height: 150px;
+.links {
+    margin-top: 1.5em;
+    text-align: center;
 }
