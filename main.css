@@ -1,3 +1,12 @@
 html {
     white-space: pre-wrap;
 }
+
+body {
+    margin-top: -2em;
+    margin-left: 1em;
+}
+
+#cse {
+    margin-top: -1em;
+}
