@@ -16,9 +16,10 @@ body {
     padding: 40px 60px 60px 60px;
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
     #contents {
-        padding: 20px 60px 60px 30px;
+        max-width: 600px;
+        padding: 10px 10px 10px 20px;
     }
 }
 
